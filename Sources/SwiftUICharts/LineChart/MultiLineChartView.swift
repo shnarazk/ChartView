@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(OSX 11.0, *)
 public struct MultiLineChartView: View {
     @Environment(\.colorScheme) var colorScheme: ColorScheme
     var data:[MultiLineChartData]
