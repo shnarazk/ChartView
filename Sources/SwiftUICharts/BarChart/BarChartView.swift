@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+@available(OSX 11.0, *)
 public struct BarChartView : View {
     @Environment(\.colorScheme) var colorScheme: ColorScheme
     private var data: ChartData
